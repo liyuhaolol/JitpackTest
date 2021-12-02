@@ -9,8 +9,6 @@ android {
     defaultConfig {
         minSdk 23
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
 
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -40,7 +38,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.liyuhaolol'
                 artifactId = 'JitPackTest'
-                version = '1.0.1'
+                version = '1.0.2'
             }
         }
     }
